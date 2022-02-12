@@ -1,0 +1,278 @@
+/* GLOBAL FIX a&ul */
+a {
+  text-decoration-line: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* 
+COLORS 
+Цвет основного текста #757575;
+Цвет заголовков/навигации/кнопок #212121;
+Цвет ховера/фокуса навигации и контактов #2196F3;
+Цвет главного заголовка/ховера кнопок #FFFFFF;
+Заливка главной кнопки #2196F3;
+Заливка главной кнопки ховер/фокус #188CE8;
+Заливка кнопок #F5F4FA;
+Заливка кнопок ховер/фокус #2196F3;
+Заливка футтера и первой секции #2F303A;
+Цвет контактов футера rgba(255, 255, 255, 0.6);
+
+*/
+
+/* 
+TEXT
+Основной щрифт Roboto;
+
+основной текст
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+логотип
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+навигация 
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+контакты хедер
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+главный заголовок
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+Второй заголовок
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+
+Третий заголовок
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+
+контакты футтер
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+
+*/
+:root {
+  --text: #757575;
+  --title-nav-btn: #212121;
+  --hov-nav-contacts: #2196f3;
+  --mtitle-hovbtn: #ffffff;
+  --bcg-mbtn: #2196f3;
+  --bcg-mbtn-hov: #188ce8;
+  --bcg-btn: #f5f4fa;
+  --bcg-btn-hov: #2196f3;
+  --bcg-footer-msec: #2f303a;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--text);
+  font-family: Roboto, sans-serif;
+  /* font-weight: 400; */
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* HEADER */
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-first {
+  color: #2196f3;
+}
+
+.nav {
+  color: var(--title-nav-btn);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav:hover,
+.nav:focus {
+  color: var(--hov-nav-contacts);
+}
+
+.contact {
+  color: var(--text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--hov-nav-contacts);
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--bcg-footer-msec);
+}
+
+.logo-footer {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.contact-footer {
+  color: var(--footer-contacts);
+  font-style: normal;
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--hov-nav-contacts);
+}
+
+/* SECTION 1 [index.html] */
+.sec-one {
+  background-color: var(--bcg-footer-msec);
+}
+
+.mtitle {
+  color: var(--mtitle-hovbtn);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.mbtn {
+  cursor: pointer;
+  background-color: var(--bcg-mbtn);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+
+.mbtn:hover,
+.mbtn:focus {
+  background-color: var(--bcg-mbtn-hov);
+}
+
+/* SECTION 2 [index.html] */
+.second-title {
+  color: var(--title-nav-btn);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.title-three {
+  color: var(--title-nav-btn);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* SECTION 3 [index.html] см.SECTION 2 */
+
+/* SECTION 4 [index.html] */
+.section-four {
+  background-color: #f5f4fa;
+}
+
+.card-title {
+  color: var(--title-nav-btn);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.card-info {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* SECTION 1 [portfolio.html] */
+.btn {
+  cursor: pointer;
+  background-color: var(--bcg-btn);
+  color: var(--title-nav-btn);
+  font-family: Roboto, sans-serif;
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--bcg-btn-hov);
+  color: #ffffff;
+}
+
+.case-title {
+  color: var(--title-nav-btn);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.case-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
