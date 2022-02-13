@@ -11,6 +11,15 @@ ol {
   list-style: none;
 }
 
+img {
+  display: block;
+  min-width: 100%;
+}
+
+header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
 p,
 h1,
 h2,
@@ -410,6 +419,8 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-left: 24px;
+  margin-bottom: 4px;
 }
 
 .one {
@@ -457,6 +468,8 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
+  margin-left: 24px;
+  margin-bottom: 20px;
 }
 
 .market {
