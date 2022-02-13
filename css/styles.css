@@ -227,6 +227,8 @@ body {
 .sec-one {
   background-color: var(--bcg-footer-msec);
   height: 600px;
+  text-align: center;
+  margin-bottom: 95px;
 }
 
 .mtitle {
@@ -237,7 +239,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
+  margin-bottom: 30px;
 }
 
 .mbtn {
@@ -248,6 +250,13 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
+  min-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-radius: 4px;
+  border: 0px;
 }
 
 .mbtn:hover,
@@ -256,6 +265,10 @@ body {
 }
 
 /* SECTION 2 [index.html] */
+.sec-two {
+  margin-bottom: 94px;
+}
+
 .second-title {
   color: var(--title-nav-btn);
   font-weight: 700;
@@ -263,6 +276,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  display: none;
 }
 
 .title-three {
@@ -272,6 +286,20 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantage-list {
+  display: flex;
+}
+
+.advantage-list-item {
+  width: 270px;
+  height: 101px;
+}
+
+.advantage-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* SECTION 3 [index.html] см.SECTION 2 */
