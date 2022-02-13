@@ -276,7 +276,6 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  display: none;
 }
 
 .title-three {
@@ -302,8 +301,32 @@ body {
   margin-right: 30px;
 }
 
-/* SECTION 3 [index.html] см.SECTION 2 */
+.none {
+  display: none;
+}
 
+/* SECTION 3 [index.html] см.SECTION 2 */
+.sec-three {
+  text-align: center;
+}
+
+.title-sec-three {
+  margin-bottom: 50px;
+}
+
+.photo-list {
+  display: flex;
+  margin-bottom: 94px;
+}
+
+.photo-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.photo-list-item {
+  width: 370px;
+  height: 294px;
+}
 /* SECTION 4 [index.html] */
 .section-four {
   background-color: #f5f4fa;
