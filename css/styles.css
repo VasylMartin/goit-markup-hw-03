@@ -198,6 +198,7 @@ body {
 .footer {
   background-color: var(--bcg-footer-msec);
   height: 252px;
+  padding: 60px;
 }
 
 .logo-footer {
@@ -208,7 +209,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   display: inline-block;
-  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -238,7 +238,7 @@ body {
   background-color: var(--bcg-footer-msec);
   height: 600px;
   text-align: center;
-  margin-bottom: 95px;
+  padding: 200px;
 }
 
 .mtitle {
@@ -250,7 +250,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
-  padding-top: 201px;
 }
 
 .mbtn {
@@ -278,6 +277,7 @@ body {
 /* SECTION 2 [index.html] */
 .sec-two {
   padding-bottom: 94px;
+  padding: 95px;
 }
 
 .second-title {
@@ -319,6 +319,7 @@ body {
 /* SECTION 3 [index.html] см.SECTION 2 */
 .sec-three {
   text-align: center;
+  padding-bottom: 95px;
 }
 
 .title-sec-three {
@@ -327,7 +328,6 @@ body {
 
 .photo-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .photo-list-item:not(:last-child) {
@@ -341,6 +341,7 @@ body {
 /* SECTION 4 [index.html] */
 .section-four {
   background-color: #f5f4fa;
+  padding: 95px;
 }
 
 .card-title {
@@ -363,7 +364,6 @@ body {
 
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-list-item {
@@ -381,7 +381,6 @@ body {
 
 .sec-title {
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 /* SECTION 1 [portfolio.html] */
