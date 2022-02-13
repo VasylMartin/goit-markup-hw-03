@@ -170,6 +170,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .nav-list-item:not(:last-child) {
@@ -283,9 +285,8 @@ body {
 }
 
 /* SECTION 2 [index.html] */
-.sec-two {
-  padding-bottom: 94px;
-  padding: 95px;
+.section {
+  padding: 94px;
 }
 
 .second-title {
@@ -313,7 +314,7 @@ body {
 
 .advantage-list-item {
   width: 270px;
-  height: 101px;
+  /* height: 101px; */
 }
 
 .advantage-list-item:not(:last-child) {
@@ -325,11 +326,6 @@ body {
 }
 
 /* SECTION 3 [index.html] см.SECTION 2 */
-.sec-three {
-  text-align: center;
-  padding-bottom: 95px;
-}
-
 .title-sec-three {
   margin-bottom: 50px;
 }
@@ -344,12 +340,11 @@ body {
 
 .photo-list-item {
   width: 370px;
-  height: 294px;
+  /* height: 294px; */
 }
 /* SECTION 4 [index.html] */
 .section-four {
   background-color: #f5f4fa;
-  padding: 95px;
 }
 
 .card-title {
@@ -368,6 +363,7 @@ body {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 
 .team-list {
@@ -376,7 +372,7 @@ body {
 
 .team-list-item {
   width: 270px;
-  height: 368px;
+  /* height: 368px; */
   background-color: var(--mtitle-hovbtn);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -494,8 +490,8 @@ body {
 
 .card-list-item {
   width: 370px;
-  height: 404px;
-  border: 1px solid #eeeeee;
+  /* height: 404px; */
+  border-bottom: 1px solid #eeeeee;
 }
 
 .card-list-item:not(:nth-child(3n)) {
