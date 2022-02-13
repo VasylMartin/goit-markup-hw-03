@@ -197,6 +197,7 @@ body {
 /* FOOTER */
 .footer {
   background-color: var(--bcg-footer-msec);
+  height: 252px;
 }
 
 .logo-footer {
@@ -206,16 +207,25 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .address {
   color: #ffffff;
   font-style: normal;
+  margin-bottom: 9px;
 }
 
 .contact-footer {
   color: var(--footer-contacts);
   font-style: normal;
+  display: inline-block;
+}
+
+.contact-footer:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contact-footer:hover,
