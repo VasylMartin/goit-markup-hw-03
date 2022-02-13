@@ -149,8 +149,7 @@ body {
 }
 
 .header {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding: 25px;
 }
 .logo-first {
   color: #2196f3;
