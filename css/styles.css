@@ -208,7 +208,8 @@ body {
 .footer {
   background-color: var(--bcg-footer-msec);
   height: 252px;
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -248,7 +249,8 @@ body {
   background-color: var(--bcg-footer-msec);
   height: 600px;
   text-align: center;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .mtitle {
@@ -286,7 +288,8 @@ body {
 
 /* SECTION 2 [index.html] */
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .second-title {
@@ -326,6 +329,10 @@ body {
 }
 
 /* SECTION 3 [index.html] см.SECTION 2 */
+.section-three {
+  padding-bottom: 94px;
+}
+
 .title-sec-three {
   margin-bottom: 50px;
 }
