@@ -208,7 +208,7 @@ body {
 /* FOOTER */
 .footer {
   background-color: var(--bcg-footer-msec);
-  height: 252px;
+  /* height: 252px; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -355,6 +355,11 @@ body {
   background-color: #f5f4fa;
 }
 
+.cards {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .card-title {
   color: var(--title-nav-btn);
   font-weight: 500;
@@ -362,7 +367,6 @@ body {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -371,7 +375,6 @@ body {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
 }
 
 .team-list {
@@ -423,8 +426,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
-  margin-bottom: 4px;
 }
 
 .one {
@@ -472,8 +473,6 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  margin-left: 24px;
-  margin-bottom: 20px;
 }
 
 .market {
@@ -499,7 +498,6 @@ body {
 .card-list-item {
   width: 370px;
   /* height: 404px; */
-  border-bottom: 1px solid #eeeeee;
 }
 
 .card-list-item:not(:nth-child(3n)) {
@@ -510,6 +508,12 @@ body {
   margin-bottom: 30px;
 }
 
-.cards-img {
-  margin-bottom: 20px;
+.cases {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
