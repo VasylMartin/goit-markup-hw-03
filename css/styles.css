@@ -326,7 +326,14 @@ body {
 }
 
 .none {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 /* SECTION 3 [index.html] см.SECTION 2 */
